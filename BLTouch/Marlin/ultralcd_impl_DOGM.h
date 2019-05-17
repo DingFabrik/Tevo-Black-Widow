@@ -50,7 +50,8 @@
 #include <U8glib.h>
 
 #if ENABLED(SHOW_BOOTSCREEN) && ENABLED(SHOW_CUSTOM_BOOTSCREEN)
-  #include "_Bootscreen.h"
+  //#include "_Bootscreen.h"
+  #include "_DingfabrikBootscreen.h"
 #endif
 
 #if DISABLED(MAPPER_C2C3) && DISABLED(MAPPER_NON) && ENABLED(USE_BIG_EDIT_FONT)
