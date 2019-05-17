@@ -639,7 +639,7 @@
 //#define MESH_BED_LEVELING    // Enable mesh bed leveling.
 
 #if ENABLED(MESH_BED_LEVELING)
-  #define MESH_INSET 10        // Mesh inset margin on print area
+  #define MESH_INSET 40        // Mesh inset margin on print area
   #define MESH_NUM_X_POINTS 3  // Don't use more than 7 points per axis, implementation limited.
   #define MESH_NUM_Y_POINTS 3
   #define MESH_HOME_SEARCH_Z 4  // Z after Home, bed somewhere below but above 0.0.
@@ -689,13 +689,13 @@
     #define LEFT_PROBE_BED_POSITION 50    //60  //***** Black Widow ***** 
     #define RIGHT_PROBE_BED_POSITION 345  //380 //***** Black Widow ***** 
     #define FRONT_PROBE_BED_POSITION 20
-    #define BACK_PROBE_BED_POSITION 220         //***** Black Widow ***** 
+    #define BACK_PROBE_BED_POSITION 180         //***** Black Widow ***** 
 
     #define MIN_PROBE_EDGE 10 // The Z probe minimum square sides can be no smaller than this.
 
     // Set the number of grid points per dimension.
     // You probably don't need more than 3 (squared=9).
-    #define AUTO_BED_LEVELING_GRID_POINTS 5  //must ***** Black Widow ***** 
+    #define AUTO_BED_LEVELING_GRID_POINTS 3  //must ***** Black Widow ***** 
 
   #else  // !AUTO_BED_LEVELING_GRID
 
